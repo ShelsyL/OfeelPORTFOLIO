@@ -11,6 +11,9 @@
 
 @include('templates.partials._load')
 
+{{-- Début APP --}}
+<div id="app">
+
 @include('templates.partials._nav')
 
 {{-- Template de la page Home --}}
@@ -44,6 +47,9 @@
     </div>
 
 @include('templates.partials._bandeDroite')
+
+</div>
+{{-- FIN APP --}}
 
 @include('templates.partials._scripts')
 

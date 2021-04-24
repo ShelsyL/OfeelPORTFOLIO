@@ -11,6 +11,9 @@
 
 <title>Kompleet by Distinctive Themes</title>
 
+{{-- Chargement du fichier css qui se trouve dans les assets(dossier public) --}}
+{{-- <link rel="stylesheet" href="{{ asset('css/app.css') }}"> --}}
+
 <!-- Bootstrap Core CSS -->
 <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet">
 <link href="{{ asset('assets/css/animate.css') }}" rel="stylesheet">
